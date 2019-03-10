@@ -1,0 +1,25 @@
+{
+  "name": "project-restapi",
+  "version": "1.0.0",
+  "description": "This is an example of a RESTful API with a working application and added notes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CeroDosUno/project-restfulAPI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CeroDosUno/project-restfulAPI/issues"
+  },
+  "homepage": "https://github.com/CeroDosUno/project-restfulAPI#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.18"
+  }
+}
