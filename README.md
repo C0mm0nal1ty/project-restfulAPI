@@ -2,6 +2,16 @@
 
 This is an example of a RESTful API with a working application and added notes.
 
+# RESTful operations
+The is a minimal wiki storage with basic RESTful operations:
+GET localhost:3000/articles
+GET localhost:3000/articles/<new-article-name>
+POST localhost:3000/articles/<new-article-name>
+PUT localhost:3000/articles/<new-article-name>
+PATCH localhost:3000/articles/<new-article-name>
+DELETE localhost:3000/articles/
+DELETE localhost:3000/articles/<new-article-name>
+
 This application was built with CSS3,HTML5,Javascript, EJS, MongoDB, Mongoose, Lodash, Express.js, Node.js,.
 MongoDB is hosted on MongoDB Atlas, and the application is hosted on Heroku.
 
@@ -52,6 +62,7 @@ Start up a shell
 ```
 mongo
 ```
+
 Install Robo3T
 ```
 *refer to the site for the most up-to-date tar file
@@ -78,17 +89,20 @@ Afterwards, navigate to ubuntu applications and begin the installation procedure
 
 ```
 
+Install Postman
+```
+mkdir ~/Downloads/Postman
+cd ~/Downloads/Postman
+wget https://dl.pstmn.io/download/latest/linux64
+tar -xvzf Postman-linux-x64-6.7.4.tar.gz
+cd Postman-linux-x64-6.7.4/Postman/
+Run Postman
 
+```
 
 
 
 ## Built With
-Front-End
-* [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) - HTML5 is the latest evolution of the standard that defines HTML
-* [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS) - Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML
-* [Javascript](https://www.javascript.com/) - JavaScript is the programming language of HTML and the Web
-* [EJS](https://ejs.co/) - Embedded JavaScript templating.
-
 
 Back-End
 * [Robo 3T](https://robomongo.org) - free lightweight GUI for MongoDB enthusiasts.
@@ -97,7 +111,8 @@ Back-End
 * [MongoDB](https://www.mongodb.com/) - MongoDB is a document database with the scalability and flexibility
 * [mongoose](https://mongoosejs.com/) - elegant mongodb object modeling for node.js
 * [Nodemon](https://nodemon.io/) - Nodemon is a utility that will monitor for any changes in your source and automatically restart your server
-* [Heroku](https://www.heroku.com/) - Heroku is a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.
+* [Postman](https://www.getpostman.com) - Get easy, API-First solutions with the industry's only complete API Development Environment.
+* [JSON Viewer](https://github.com/tulios/json-viewer) - used to see the responses from the API in a browser.
 
 ## Versioning
 
