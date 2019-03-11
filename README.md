@@ -4,18 +4,17 @@ This is an example of a RESTful API with a working application and added notes.
 
 # RESTful operations
 The is a minimal wiki storage with basic RESTful operations:
-GET localhost:3000/articles
-GET localhost:3000/articles/<new-article-name>
-POST localhost:3000/articles/<new-article-name>
-PUT localhost:3000/articles/<new-article-name>
-PATCH localhost:3000/articles/<new-article-name>
-DELETE localhost:3000/articles/
-DELETE localhost:3000/articles/<new-article-name>
+* GET localhost:3000/articles
+* GET localhost:3000/articles/<new-article-name>
+* POST localhost:3000/articles/<new-article-name>
+* PUT localhost:3000/articles/<new-article-name>
+* PATCH localhost:3000/articles/<new-article-name>
+* DELETE localhost:3000/articles/
+* DELETE localhost:3000/articles/<new-article-name>
 
 This application was built with CSS3,HTML5,Javascript, EJS, MongoDB, Mongoose, Lodash, Express.js, Node.js,.
 MongoDB is hosted on MongoDB Atlas, and the application is hosted on Heroku.
 
-![alt text]()
 
 ## Getting Started
 
